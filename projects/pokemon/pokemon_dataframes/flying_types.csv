@@ -1,0 +1,99 @@
+,name,attack,defense,pokedex_number,type1,type2,generation,is_legendary,battle_type
+0,Charizard,104,78,6,fire,flying,1,False,attack type
+1,Butterfree,45,50,12,bug,flying,1,False,defense type
+2,Pidgey,45,40,16,normal,flying,1,False,attack type
+3,Pidgeotto,60,55,17,normal,flying,1,False,attack type
+4,Pidgeot,80,80,18,normal,flying,1,False,balanced
+5,Spearow,60,30,21,normal,flying,1,False,attack type
+6,Fearow,90,65,22,normal,flying,1,False,attack type
+7,Zubat,45,35,41,poison,flying,1,False,attack type
+8,Golbat,80,70,42,poison,flying,1,False,attack type
+9,Farfetch'd,90,55,83,normal,flying,1,False,attack type
+10,Doduo,85,45,84,normal,flying,1,False,attack type
+11,Dodrio,110,70,85,normal,flying,1,False,attack type
+12,Scyther,110,80,123,bug,flying,1,False,attack type
+13,Gyarados,155,109,130,water,flying,1,False,attack type
+14,Aerodactyl,135,85,142,rock,flying,1,False,attack type
+15,Articuno,85,100,144,ice,flying,1,True,defense type
+16,Zapdos,90,85,145,electric,flying,1,True,attack type
+17,Moltres,100,90,146,fire,flying,1,True,attack type
+18,Dragonite,134,95,149,dragon,flying,1,False,attack type
+19,Hoothoot,30,30,163,normal,flying,2,False,balanced
+20,Noctowl,50,50,164,normal,flying,2,False,balanced
+21,Ledyba,20,30,165,bug,flying,2,False,defense type
+22,Ledian,35,50,166,bug,flying,2,False,defense type
+23,Crobat,90,80,169,poison,flying,2,False,attack type
+24,Togetic,40,85,176,fairy,flying,2,False,defense type
+25,Natu,50,45,177,psychic,flying,2,False,attack type
+26,Xatu,75,70,178,psychic,flying,2,False,attack type
+27,Hoppip,35,40,187,grass,flying,2,False,defense type
+28,Skiploom,45,50,188,grass,flying,2,False,defense type
+29,Jumpluff,55,70,189,grass,flying,2,False,defense type
+30,Yanma,65,45,193,bug,flying,2,False,attack type
+31,Murkrow,85,42,198,dark,flying,2,False,attack type
+32,Gligar,75,105,207,ground,flying,2,False,defense type
+33,Delibird,55,45,225,ice,flying,2,False,attack type
+34,Mantine,40,70,226,water,flying,2,False,defense type
+35,Skarmory,80,140,227,steel,flying,2,False,defense type
+36,Lugia,90,130,249,psychic,flying,2,True,defense type
+37,Ho-Oh,130,90,250,fire,flying,2,True,attack type
+38,Beautifly,70,50,267,bug,flying,3,False,attack type
+39,Taillow,55,30,276,normal,flying,3,False,attack type
+40,Swellow,85,60,277,normal,flying,3,False,attack type
+41,Wingull,30,30,278,water,flying,3,False,balanced
+42,Pelipper,50,100,279,water,flying,3,False,defense type
+43,Masquerain,60,62,284,bug,flying,3,False,defense type
+44,Ninjask,90,45,291,bug,flying,3,False,attack type
+45,Swablu,40,60,333,normal,flying,3,False,defense type
+46,Altaria,110,110,334,dragon,flying,3,False,balanced
+47,Tropius,68,83,357,grass,flying,3,False,defense type
+48,Salamence,145,130,373,dragon,flying,3,False,attack type
+49,Rayquaza,180,100,384,dragon,flying,3,True,attack type
+50,Starly,55,30,396,normal,flying,4,False,attack type
+51,Staravia,75,50,397,normal,flying,4,False,attack type
+52,Staraptor,120,70,398,normal,flying,4,False,attack type
+53,Mothim,94,50,414,bug,flying,4,False,attack type
+54,Combee,30,42,415,bug,flying,4,False,defense type
+55,Vespiquen,80,102,416,bug,flying,4,False,defense type
+56,Drifloon,50,34,425,ghost,flying,4,False,attack type
+57,Drifblim,80,44,426,ghost,flying,4,False,attack type
+58,Honchkrow,125,52,430,dark,flying,4,False,attack type
+59,Chatot,65,45,441,normal,flying,4,False,attack type
+60,Mantyke,20,50,458,water,flying,4,False,defense type
+61,Togekiss,50,95,468,fairy,flying,4,False,defense type
+62,Yanmega,76,86,469,bug,flying,4,False,defense type
+63,Gliscor,95,125,472,ground,flying,4,False,defense type
+64,Pidove,55,50,519,normal,flying,5,False,attack type
+65,Tranquill,77,62,520,normal,flying,5,False,attack type
+66,Unfezant,115,80,521,normal,flying,5,False,attack type
+67,Woobat,45,43,527,psychic,flying,5,False,attack type
+68,Swoobat,57,55,528,psychic,flying,5,False,attack type
+69,Sigilyph,58,80,561,psychic,flying,5,False,defense type
+70,Archen,112,45,566,rock,flying,5,False,attack type
+71,Archeops,140,65,567,rock,flying,5,False,attack type
+72,Ducklett,44,50,580,water,flying,5,False,defense type
+73,Swanna,87,63,581,water,flying,5,False,attack type
+74,Emolga,75,60,587,electric,flying,5,False,attack type
+75,Rufflet,83,50,627,normal,flying,5,False,attack type
+76,Braviary,123,75,628,normal,flying,5,False,attack type
+77,Vullaby,55,75,629,dark,flying,5,False,defense type
+78,Mandibuzz,65,105,630,dark,flying,5,False,defense type
+79,Tornadus,100,80,641,flying,,5,True,attack type
+80,Thundurus,105,70,642,electric,flying,5,True,attack type
+81,Landorus,145,90,645,ground,flying,5,True,attack type
+82,Fletchling,50,43,661,normal,flying,6,False,attack type
+83,Fletchinder,73,55,662,fire,flying,6,False,attack type
+84,Talonflame,81,71,663,fire,flying,6,False,attack type
+85,Vivillon,52,50,666,bug,flying,6,False,attack type
+86,Hawlucha,92,75,701,fighting,flying,6,False,attack type
+87,Noibat,30,35,714,flying,dragon,6,False,defense type
+88,Noivern,70,80,715,flying,dragon,6,False,defense type
+89,Yveltal,131,95,717,dark,flying,6,True,attack type
+90,Rowlet,55,55,722,grass,flying,7,False,balanced
+91,Dartrix,75,75,723,grass,flying,7,False,balanced
+92,Pikipek,75,30,731,normal,flying,7,False,attack type
+93,Trumbeak,85,50,732,normal,flying,7,False,attack type
+94,Toucannon,120,75,733,normal,flying,7,False,attack type
+95,Oricorio,70,70,741,fire,flying,7,False,balanced
+96,Minior,100,60,774,rock,flying,7,False,attack type
+97,Celesteela,101,103,797,steel,flying,7,True,defense type
