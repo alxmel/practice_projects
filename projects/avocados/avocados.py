@@ -45,3 +45,9 @@ plt.ylabel('')
 plt.legend()
 plt.savefig('avocados_data/bag_percentage_pie.png')
 
+# Total volume by region
+regional_vol = avocados.groupby('region')['Total Volume'].mean()
+regional_vol = regional_vol.round(decimals=0).astype(int)
+regional_vol = regional_vol.reset_index(name='average volume')
+regional_vol.to_csv('avocados_data/regional_average_volume.csv')
+
