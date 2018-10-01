@@ -84,3 +84,40 @@ yearly_reg_vol = yearly_reg_vol.reset_index(drop=True)
 # Saving to CSV
 yearly_reg_vol.to_csv('avocados_data/yearly_regional_volume_change.csv')
 
+
+# Getting the min/median/max of each year's Total Volume and saving to CSV
+agg_vol_yearly = avocados.groupby('year')['Total Volume'].agg(['min', 'median', 'max'])
+agg_vol_yearly.rename_axis('Total Volume min/median/max by Year', axis=1)
+agg_vol_yearly.to_csv('avocados_data/agg_volume_yearly.csv')
+
+
+# Median price of each region, then plotting as a lineplot
+plt.close('all')
+ax = plt.subplot()
+median_price_region = avocados.rename(columns={'AveragePrice': 'Price'}).groupby('region')['Price'].median().reset_index()
+region_list = avocados['region'].unique().tolist()
+median_price_region.plot.line(ax=ax, marker='s', grid=True, figsize=(15,10))
+
+# Labeling the X/Y axes, and creating a title 
+plt.xlabel('regions')
+plt.ylabel('average price in US dollars')
+plt.title('Median price of Avocados for every Region')
+ax.set_xticks(range(len(region_list)))
+ax.set_xticklabels(region_list, rotation=90)
+
+# Creating the values in the y-axis. Created a new list, populated the list, and preappended $ to each value 
+y_interval = np.linspace(0.9, 1.9, num=21)
+y_interval_list = y_interval.tolist()
+new_y_axis = []
+
+for x in y_interval_list:
+    new_y_axis.append(str(x))
+
+new_y_axis = ['$' + x for x in new_y_axis]
+
+ax.set_yticks(y_interval)
+ax.set_yticklabels(new_y_axis)
+ax.legend()
+plt.tight_layout()
+plt.savefig('avocados_data/regional_median_price_line.png')
+
